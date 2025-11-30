@@ -1,3 +1,94 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "landing-hero",
+      "description": "Mockup of a Jualin minisite on a laptop and phone",
+      "imageUrl": "https://images.unsplash.com/photo-1558174685-430919a96c8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3ZWJzaXRlJTIwbW9ja3VwfGVufDB8fHx8MTc2NDM2Mzg4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website mockup"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Avatar for a testimonial from Budi",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ0NTkzNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Avatar for a testimonial from Siti",
+      "imageUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ0NTkzNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Avatar for a testimonial from Eka",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ0NTkzNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "product-1",
+      "description": "Photo of Sambel Pecel",
+      "imageUrl": "https://images.unsplash.com/photo-1638324396229-43d56a415ef3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzcGljeSUyMHNhdWNlfGVufDB8fHx8MTc2NDQ3MjAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spicy sauce"
+    },
+    {
+      "id": "product-2",
+      "description": "Photo of Keripik Tempe",
+      "imageUrl": "https://images.unsplash.com/photo-1604565011092-c0fa4416f80f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0ZW1wZWglMjBjaGlwc3xlbnwwfHx8fDE3NjQ0NzIwMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tempeh chips"
+    },
+    {
+      "id": "product-3",
+      "description": "Photo of Bandeng Asap",
+      "imageUrl": "https://images.unsplash.com/photo-1621436130558-3f653c5e859e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzbW9rZWQlMjBmaXNofGVufDB8fHx8MTc2NDQ3MjAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smoked fish"
+    },
+    {
+      "id": "product-4",
+      "description": "Photo of Telur Asin",
+      "imageUrl": "https://images.unsplash.com/photo-1755603784587-58f19674440f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzYWx0ZWQlMjBlZ2d8ZW58MHx8fHwxNzY0NDcyMDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salted egg"
+    },
+    {
+      "id": "product-5",
+      "description": "Photo of Kue Lumpur",
+      "imageUrl": "https://images.unsplash.com/photo-1585240698255-a9ead499af10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtdWQlMjBjYWtlfGVufDB8fHx8MTc2NDQ3MjAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mud cake"
+    },
+    {
+      "id": "product-6",
+      "description": "Photo of Ote-Ote Porong",
+      "imageUrl": "https://images.unsplash.com/photo-1570953090140-fc63063b6300?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2ZWdldGFibGUlMjBmcml0dGVyfGVufDB8fHx8MTc2NDQ3MjAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vegetable fritter"
+    },
+    {
+      "id": "umkm-logo",
+      "description": "Placeholder UMKM logo",
+      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjQzNjg1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "company logo"
+    },
+    {
+      "id": "umkm-banner",
+      "description": "Placeholder UMKM banner",
+      "imageUrl": "https://images.unsplash.com/photo-1700700636385-5df94a8d8ae9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdG9yZSUyMGJhbm5lcnxlbnwwfHx8fDE3NjQ0NzIwMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "store banner"
+    },
+    {
+      "id": "poster-template-1",
+      "description": "Minimalist poster template",
+      "imageUrl": "https://images.unsplash.com/photo-1622454442954-2a0940e72922?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtaW5pbWFsaXN0JTIwcG9zdGVyfGVufDB8fHx8MTc2NDQ3MjAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "minimalist poster"
+    },
+    {
+      "id": "poster-template-2",
+      "description": "Elegant poster template",
+      "imageUrl": "https://images.unsplash.com/photo-1636956078539-c9fb9e51bf12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlbGVnYW50JTIwcG9zdGVyfGVufDB8fHx8MTc2NDQ3MjAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elegant poster"
+    },
+    {
+      "id": "poster-template-3",
+      "description": "Modern poster template",
+      "imageUrl": "https://images.unsplash.com/photo-1661570323628-06de800328c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBwb3N0ZXJ8ZW58MHx8fHwxNzY0NDcyMDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern poster"
+    }
+  ]
 }
