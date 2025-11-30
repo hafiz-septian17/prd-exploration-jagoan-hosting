@@ -4,28 +4,49 @@ export type Feature = {
   description: string;
 };
 
-export const features: Feature[] = [
+export const trainingFeatures: Feature[] = [
   {
-    icon: 'LayoutTemplate',
-    title: 'Buat Minisite',
-    description: 'Tampilkan produk Anda dengan minisite yang menarik dan profesional dalam hitungan menit.',
+    icon: 'Goal',
+    title: 'Mindset & Business Plan',
+    description: 'Bangun fondasi bisnis yang kokoh dengan mindset yang benar dan rencana yang matang.',
   },
   {
-    icon: 'BookOpen',
-    title: 'Katalog Produk',
-    description: 'Kelola semua produk Anda di satu tempat yang mudah diakses oleh pelanggan.',
+    icon: 'ScanFace',
+    title: 'Branding & Target Market',
+    description: 'Ciptakan identitas brand yang kuat dan kenali siapa target pasar Anda.',
   },
   {
-    icon: 'Sparkles',
-    title: 'Promosi Otomatis',
-    description: 'Buat konten promosi menarik dengan bantuan AI untuk meningkatkan penjualan.',
+    icon: 'Megaphone',
+    title: 'Digital Marketing',
+    description: 'Pelajari strategi pemasaran digital untuk menjangkau lebih banyak pelanggan online.',
   },
   {
-    icon: 'BarChart2',
-    title: 'Insight Pengunjung',
-    description: 'Pahami perilaku pelanggan dengan data analitik yang mudah dibaca.',
+    icon: 'BookCopy',
+    title: 'Content Creation',
+    description: 'Kuasai cara membuat konten yang menarik dan menjual di berbagai platform.',
+  },
+  {
+    icon: 'Users',
+    title: 'Customer Service',
+    description: 'Berikan pelayanan prima untuk membangun loyalitas pelanggan.',
+  },
+  {
+    icon: 'Wallet',
+    title: 'Financial Management',
+    description: 'Kelola keuangan bisnis Anda secara efektif dan efisien.',
+  },
+  {
+    icon: 'TrendingUp',
+    title: 'Business Scaling',
+    description: 'Pelajari cara mengembangkan dan menskalakan bisnis Anda ke level berikutnya.',
+  },
+   {
+    icon: 'Lightbulb',
+    title: 'Inovasi Produk',
+    description: 'Kembangkan produk yang relevan dan diminati pasar secara berkelanjutan.',
   },
 ];
+
 
 export type Testimonial = {
   id: string;
@@ -38,20 +59,20 @@ export const testimonials: Testimonial[] = [
   {
     id: 'testimonial-1',
     name: 'Budi Santoso',
-    title: 'Pemilik "Warung Pojok"',
-    quote: 'JUALIN benar-benar mengubah cara saya berbisnis. Minisite saya sekarang terlihat jauh lebih profesional dan penjualan meningkat 50%!',
+    title: 'Alumni Pelatihan, Pemilik "Warung Pojok"',
+    quote: 'Pelatihan di JUALIN membuka wawasan saya. Bisnis saya jadi lebih terarah dan omzet meningkat setelah menerapkan ilmu dari sini!',
   },
   {
     id: 'testimonial-2',
     name: 'Siti Aminah',
-    title: 'Owner "Dapur Bunda"',
-    quote: 'Fitur promosi otomatis sangat membantu. Saya tidak perlu pusing lagi memikirkan caption untuk media sosial. Sangat praktis!',
+    title: 'Alumni Pelatihan, Owner "Dapur Bunda"',
+    quote: 'Materi digital marketing sangat aplikatif. Saya jadi lebih percaya diri untuk promosi di media sosial. Terima kasih JUALIN!',
   },
   {
     id: 'testimonial-3',
     name: 'Eka Wijaya',
-    title: 'Pengusaha "Keripik Jaya"',
-    quote: 'Platform yang sangat mudah digunakan, bahkan untuk orang awam seperti saya. Pelatihannya juga sangat bermanfaat untuk mengembangkan bisnis.',
+    title: 'Alumni Pelatihan, Pengusaha "Keripik Jaya"',
+    quote: 'Ilmu manajemen keuangannya juara! Sekarang saya bisa mengatur cash flow bisnis dengan lebih baik. Sangat direkomendasikan.',
   },
 ];
 
@@ -75,11 +96,10 @@ export const products: Product[] = [
 ];
 
 export const recentActivities = [
-  { item: "Katalog", activity: "Produk 'Sambel Pecel' diperbarui", time: "1 jam lalu" },
-  { item: "Minisite", activity: "Banner utama telah diubah", time: "3 jam lalu" },
-  { item: "Insight", activity: "Laporan mingguan telah dibuat", time: "1 hari lalu" },
-  { item: "Katalog", activity: "Produk baru 'Kue Lumpur' ditambahkan", time: "2 hari lalu" },
-  { item: "Promosi", activity: "Konten promosi dibuat untuk 'Keripik Tempe'", time: "2 hari lalu" },
+  { item: "Pelatihan", activity: "Anda mendaftar sesi 'Digital Marketing'", time: "1 jam lalu" },
+  { item: "Akun", activity: "Profil Anda telah diperbarui", time: "3 jam lalu" },
+  { item: "Sertifikat", activity: "Sertifikat 'Business Plan' telah terbit", time: "1 hari lalu" },
+  { item: "Pembayaran", activity: "Pembayaran untuk sesi 'Branding' berhasil", time: "2 hari lalu" },
 ];
 
 export const pageVisitsData = [

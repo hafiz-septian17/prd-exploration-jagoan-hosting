@@ -11,11 +11,11 @@ export default function LandingHeader() {
           <span className="text-lg font-semibold text-foreground">JUALIN</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
-          <Link href="/customer" className="text-foreground hover:text-primary transition-colors">
-            Produk
+          <Link href="/#features" className="text-foreground hover:text-primary transition-colors">
+            Materi
           </Link>
-          <Link href="/#testimonials" className="text-foreground hover:text-primary transition-colors">
-            Testimoni
+          <Link href="/#training" className="text-foreground hover:text-primary transition-colors">
+            Daftar
           </Link>
         </nav>
         <Button asChild variant="outline">

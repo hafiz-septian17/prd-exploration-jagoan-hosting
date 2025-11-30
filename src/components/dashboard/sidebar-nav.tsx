@@ -1,12 +1,9 @@
 "use client";
 
 import {
-  BarChart,
-  BookOpen,
+  GraduationCap,
   LayoutDashboard,
-  LayoutTemplate,
   Settings,
-  Sparkles,
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -21,10 +18,7 @@ import { cn } from "@/lib/utils";
 
 export const navItems = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/dashboard/minisite", label: "Minisite", icon: LayoutTemplate },
-  { href: "/dashboard/katalog", label: "Katalog", icon: BookOpen },
-  { href: "/dashboard/promosi", label: "Promosi", icon: Sparkles },
-  { href: "/dashboard/insight", label: "Insight", icon: BarChart },
+  { href: "/dashboard/pelatihan", label: "Pelatihan Saya", icon: GraduationCap },
   { href: "/dashboard/pengaturan", label: "Pengaturan", icon: Settings },
 ];
 
