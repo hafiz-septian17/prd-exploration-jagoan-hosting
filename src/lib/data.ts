@@ -119,3 +119,23 @@ export const popularProductsData = [
   { name: 'Ote-Ote', views: 210 },
   { name: 'Telur Asin', views: 150 },
 ];
+
+export type TrainingSession = {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+  progress: number;
+  status: 'selesai' | 'sedang-berjalan' | 'belum-dimulai';
+}
+
+export const trainingSessions: TrainingSession[] = [
+  { ...trainingFeatures[0], id: 'session-1', progress: 100, status: 'selesai' },
+  { ...trainingFeatures[1], id: 'session-2', progress: 100, status: 'selesai' },
+  { ...trainingFeatures[2], id: 'session-3', progress: 50, status: 'sedang-berjalan' },
+  { ...trainingFeatures[3], id: 'session-4', progress: 0, status: 'belum-dimulai' },
+  { ...trainingFeatures[4], id: 'session-5', progress: 0, status: 'belum-dimulai' },
+  { ...trainingFeatures[5], id: 'session-6', progress: 0, status: 'belum-dimulai' },
+  { ...trainingFeatures[6], id: 'session-7', progress: 0, status: 'belum-dimulai' },
+  { ...trainingFeatures[7], id: 'session-8', progress: 0, status: 'belum-dimulai' },
+];
